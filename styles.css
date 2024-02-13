@@ -164,14 +164,6 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 500px) {
-    .envelope {
-        width: 75%;
-        height: 75%;
-        margin: 10px;
-    }
-}
-
 .envelope.open .flap {
     transform: rotateX(180deg);
 }
